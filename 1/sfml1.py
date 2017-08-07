@@ -9,7 +9,7 @@ from sklearn.model_selection import cross_val_score
 from mlxtend.evaluate import lift_score
 
 #df is a Pandas Data Frame.
-df = pd.read_csv("/home/siddharth/SF ML/1/bank-additional/bank-additional-full.csv",sep=";")
+df = pd.read_csv("/media/siddharth/New Volume/Github/SF ML/1/bank-additional/bank-additional-full.csv",sep=";")
 #Tuple representation of the dimensions of df.
 df.shape
 #GIves the name of the columns alone
